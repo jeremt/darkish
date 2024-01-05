@@ -1,0 +1,96 @@
+/* Backgrounds */
+
+body,
+.mw-page-container,
+header,
+nav div {
+    background-color: var(--bg-color) !important;
+}
+
+.mp-box {
+    background-color: var(--sub-bg-color) !important;
+}
+
+.mp-box > h2 {
+    background-color: transparent !important;
+}
+
+.bandeau-container {
+    border: none !important;
+    background-color: var(--sub-bg-color) !important;
+}
+
+.vector-sticky-pinned-container::after {
+    background: none !important; /* remove ugly gradient on side nav */
+}
+
+.navbox-container table {
+    background-color: transparent !important;
+}
+
+.navbox-container th {
+    background-color: var(--sub-bg-color) !important;
+}
+
+/* Texts */
+
+nav div {
+    color: var(--sub-fg-color) !important;
+}
+
+a {
+    color: #81a3e8 !important;
+}
+
+header .vector-icon,
+header img {
+    filter: invert(1) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--fg-color) !important;
+}
+
+p,
+li,
+div,
+cite {
+    color: var(--sub-fg-color) !important;
+}
+
+footer *:not(a) {
+    color: var(--sub-fg-color) !important;
+}
+
+/* Misc */
+
+button {
+    color: var(--fg-color) !important;
+    background-color: var(--sub-bg-color) !important;
+}
+
+input[type="search"] {
+    background-color: var(--sub-bg-color) !important;
+}
+
+input[type="search"] + span {
+    filter: invert(1) !important;
+}
+
+figure,
+figcaption,
+.infobox_v3,
+#bandeau-portail,
+#catlinks {
+    border: none !important;
+    background-color: var(--sub-bg-color) !important;
+}
+
+#vector-page-titlebar-toc-label {
+    background-color: var(--bg-color) !important;
+}

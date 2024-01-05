@@ -1,0 +1,60 @@
+/* Backgrounds */
+
+body,
+main,
+header,
+#Header,
+nav,
+main section,
+.article,
+.article__wrapper,
+.zone,
+nav ul,
+nav ul li,
+nav div {
+    background-color: var(--bg-color) !important;
+}
+
+/* Texts & icons */
+
+.Burger__icon,
+nav a,
+main a,
+header a {
+    filter: brightness(3);
+}
+
+nav a:hover,
+main a:hover,
+header a:hover {
+    filter: brightness(2) saturate(0.5);
+}
+
+.logo__lemonde {
+    filter: invert(1);
+}
+
+.lmd-btn {
+    filter: none;
+}
+
+body,
+p {
+    color: var(--sub-fg-color) !important;
+}
+
+h1,
+h1 *,
+h2,
+h2 *,
+h3,
+h3 *,
+h4,
+h4 * {
+    color: var(--fg-color) !important;
+    filter: none !important;
+}
+
+a:has(h1, h2, h3, h4, p) {
+    filter: none !important;
+}

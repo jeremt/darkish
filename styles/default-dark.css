@@ -1,0 +1,8 @@
+body {
+    color: var(--sub-fg-color);
+    background-color: var(--bg-color);
+}
+
+h1 {
+    color: var(--fg-color);
+}

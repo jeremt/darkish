@@ -1,0 +1,35 @@
+/* Logo */
+
+[data-testid="headerMediumLogo"] svg {
+    fill: var(--fg-color);
+}
+
+/* Text */
+
+h1,
+h2,
+h3,
+h4,
+time,
+blockquote {
+    color: var(--fg-color) !important;
+}
+
+a:hover,
+a:hover * {
+    color: var(--fg-color) !important;
+}
+
+p,
+li,
+p * {
+    color: var(--sub-fg-color) !important;
+}
+
+/* Background */
+
+.c,
+.bw,
+.go {
+    background-color: var(--bg-color) !important;
+}
